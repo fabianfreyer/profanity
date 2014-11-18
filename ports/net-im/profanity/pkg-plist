@@ -1,0 +1,17 @@
+bin/profanity
+man/man1/profanity.1.gz
+%%DATADIR%%/themes/aqua
+%%DATADIR%%/themes/batman
+%%DATADIR%%/themes/boothj5
+%%DATADIR%%/themes/hacker
+%%DATADIR%%/themes/headache
+%%DATADIR%%/themes/joker
+%%DATADIR%%/themes/orange
+%%DATADIR%%/themes/original
+%%DATADIR%%/themes/redsplash
+%%DATADIR%%/themes/shade
+%%DATADIR%%/themes/spawn
+%%DATADIR%%/themes/whiteness
+%%DATADIR%%/themes/yellowsplash
+@dirrmtry %%DATADIR%%/themes
+@dirrmtry %%DATADIR%%

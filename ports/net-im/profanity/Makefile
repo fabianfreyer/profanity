@@ -12,7 +12,8 @@ COMMENT=       A console based XMPP client
 LICENSE=       GPLv3
 
 BUILD_DEPENDS= pkgconf:${PORTSDIR}/devel/pkgconf
-LIB_DEPENDS=   libstrophe.so:${PORTSDIR}/net-im/libstrophe
+LIB_DEPENDS=   libstrophe.so:${PORTSDIR}/net-im/libstrophe \
+               libglib-2.0.so.0:${PORTSDIR}/devel/glib20
 
 USE_GITHUB=    yes
 GH_ACCOUNT=    boothj5
